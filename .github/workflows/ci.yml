@@ -1,0 +1,29 @@
+name: Demo
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.14.1
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - run: pnpm provenance
+      - run: pnpm test
+      - run: pnpm check:library
+      - run: pnpm lint
+      - run: pnpm compare
+      - run: pnpm check:sdk
+      - run: pnpm demo:good

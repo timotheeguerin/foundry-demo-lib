@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/Azure/typespec-azure",
+  "baseCommit": "6faca23380bbf468deb9ad2dddb376e981293dbf",
+  "sourceFiles": [
+    "packages/typespec-azure-core/src/rules/casing-style.ts",
+    "packages/typespec-azure-core/src/rules/utils.ts",
+    "packages/typespec-azure-core/src/rules/casing-style.md",
+    "packages/typespec-azure-core/test/rules/casing-style.test.ts"
+  ],
+  "sourceDiff": "upstream-casing.diff",
+  "sourceDiffSha256": "110c8e80227ad1b6662cd5b9d0deb8337c83a469fe554e978b47789924c10f15",
+  "package": "@azure-tools/typespec-azure-core",
+  "patchedVersion": "0.71.0",
+  "upstreamFilesSha256": {
+    "dist/src/rules/casing-style.js": "832def7d1ecbf3da056b95788ae3bf45ea3757841192a5ac23dd1817a124c961",
+    "dist/src/rules/casing-style.js.map": "f4de61a10fab34aa70ad30923bd79d8ea38621ed1e3eaa1b311c401bfd74ff6b",
+    "dist/src/rules/casing-style.d.ts": "519530fab67acdcab4560b2d85b863ce2a06df0d54ce28baa76c5733d6f3db9c",
+    "dist/src/rules/casing-style.d.ts.map": "440a651c52e3406e83cb5fd900e8560486d0f0ba69436b2a580bd08013c55a8d",
+    "dist/src/rules/utils.js": "adb6ef7c000fe43e95a326c31bcc52425ea6b336967bcbddcf21c19c1679955a",
+    "dist/src/rules/utils.js.map": "6cc9cdbdb809953ec4ec28d1484d49a86eb4fd205d09dd0eafe2c9a9528f6f46",
+    "dist/src/rules/utils.d.ts": "60277080bb8246424f6f1c038ec950959021c661e170da68d5c1a08b3c453f7c",
+    "dist/src/rules/utils.d.ts.map": "a55d63e75a630703204c9d58f1b5d02c03143ff4ef9ab2fd4f30b43961966ae4"
+  },
+  "copiedFilesSha256": {
+    "dist/src/rules/casing-style.js": "832def7d1ecbf3da056b95788ae3bf45ea3757841192a5ac23dd1817a124c961",
+    "dist/src/rules/casing-style.js.map": "bd59815f71eef46204490231c76ad76f954f4b539d681ed8cd867dec5537f1ec",
+    "dist/src/rules/casing-style.d.ts": "519530fab67acdcab4560b2d85b863ce2a06df0d54ce28baa76c5733d6f3db9c",
+    "dist/src/rules/casing-style.d.ts.map": "060d9c84e1f889e25fbd9f8a2402595539e5a3b3f306fff39a8151d64b9e4b42",
+    "dist/src/rules/utils.js": "adb6ef7c000fe43e95a326c31bcc52425ea6b336967bcbddcf21c19c1679955a",
+    "dist/src/rules/utils.js.map": "bd1c51a955832d8aedc725056ef76e63dfacdc4bd2915f6751bc347e2e71f0e0",
+    "dist/src/rules/utils.d.ts": "60277080bb8246424f6f1c038ec950959021c661e170da68d5c1a08b3c453f7c",
+    "dist/src/rules/utils.d.ts.map": "3031a9634805f00cfba45671b19979cc1518ca36c5804459e19786ac3c879f48"
+  },
+  "normalization": "Source maps have one trailing newline for stable pnpm patch application; runtime code is copied unchanged.",
+  "note": "Derived from the accompanying uncommitted upstream source change. No PR or published release is claimed."
+}

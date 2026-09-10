@@ -1,0 +1,42 @@
+{
+  "name": "foundry-demo-lib",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.30.2",
+  "engines": {
+    "node": ">=24.14.1"
+  },
+  "scripts": {
+    "build": "pnpm -r --if-present build",
+    "compile:baseline": "node scripts/compile.mjs baseline",
+    "compile:migrated": "node scripts/compile.mjs migrated",
+    "compare": "node scripts/compare.mjs",
+    "provenance": "node scripts/provenance.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs packages/foundry-core/test/*.test.mjs",
+    "check:sdk": "node scripts/check-sdk.mjs",
+    "check:library": "node scripts/check-library.mjs",
+    "lint": "node scripts/lint.mjs",
+    "demo:good": "node scripts/demo.mjs good",
+    "demo:bad": "node scripts/demo.mjs bad-casing bad-operation"
+  },
+  "devDependencies": {
+    "@timotheeguerin/foundry-core": "workspace:*",
+    "@azure-tools/openai-typespec": "catalog:",
+    "@azure-tools/typespec-azure-core": "catalog:",
+    "@azure-tools/typespec-azure-rulesets": "catalog:",
+    "@azure-tools/typespec-client-generator-core": "catalog:",
+    "@typespec/compiler": "catalog:",
+    "@typespec/events": "catalog:",
+    "@typespec/http": "catalog:",
+    "@typespec/openapi": "catalog:",
+    "@typespec/openapi3": "catalog:",
+    "@typespec/rest": "catalog:",
+    "@typespec/sse": "catalog:",
+    "@typespec/streams": "catalog:",
+    "@typespec/versioning": "catalog:",
+    "@typespec/xml": "catalog:",
+    "typescript": "catalog:",
+    "yaml": "catalog:"
+  }
+}

@@ -1,0 +1,54 @@
+using TypeSpec.Http;
+
+namespace Foundry.Core;
+
+alias FoundryDataPlaneApiVersionParameter = {
+  #suppress "@azure-tools/typespec-azure-core/casing-style" "Azure's operation-missing-api-version rule requires the apiVersion identifier; also preserves the existing Foundry SDK parameter name."
+  @doc("The API version to use for this operation.")
+  @query("api-version")
+  apiVersion: string;
+};
+
+alias WithRequiredFoundryPreviewHeader<TFeature> = {
+  /**
+   * A feature flag opt-in required when using preview operations or modifying persisted preview resources.
+   */
+  @header("Foundry-Features")
+  foundry_features: TFeature;
+};
+
+alias WithConditionalFoundryPreviewHeader<TFeature> = {
+  /**
+   * A feature flag opt-in required when using preview operations or modifying persisted preview resources.
+   */
+  @header("Foundry-Features")
+  foundry_features?: TFeature;
+};
+
+/** Low-level signatures, not approved standard operation templates. */
+namespace Foundations {
+  /** Compose a response with the service-selected REST or SDK error response. */
+  #suppress "@azure-tools/typespec-azure-core/long-running-polling-operation-required" "Polling metadata is supplied by the concrete service operation."
+  #suppress "@azure-tools/typespec-azure-core/no-response-body" "The response is supplied by the concrete service operation."
+  op Operation<Params extends Reflection.Model, Response, TErrorResponse>(
+    ...Params,
+    ...FoundryDataPlaneApiVersionParameter,
+  ): Response | TErrorResponse;
+
+  /** Compose service-owned preview parameters with a data-plane operation. */
+  #suppress "@azure-tools/typespec-azure-core/long-running-polling-operation-required" "Polling metadata is supplied by the concrete service operation."
+  #suppress "@azure-tools/typespec-azure-core/no-response-body" "The response is supplied by the concrete service operation."
+  op PreviewOperation<
+    TPreviewParameters extends Reflection.Model,
+    Params extends Reflection.Model,
+    Response,
+    TErrorResponse
+  > is Operation<
+    {
+      ...TPreviewParameters;
+      ...Params;
+    },
+    Response,
+    TErrorResponse
+  >;
+}

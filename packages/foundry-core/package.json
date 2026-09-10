@@ -1,0 +1,39 @@
+{
+  "name": "@timotheeguerin/foundry-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable Foundry TypeSpec job patterns and authoring policy (demo)",
+  "type": "module",
+  "license": "MIT",
+  "tspMain": "lib/main.tsp",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "typespec": "./lib/main.tsp",
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
+    }
+  },
+  "files": ["lib", "dist/src"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "@azure-tools/typespec-azure-core": "0.71.0",
+    "@azure-tools/typespec-azure-rulesets": "0.71.0",
+    "@azure-tools/typespec-client-generator-core": "0.71.0",
+    "@typespec/compiler": "1.15.0",
+    "@typespec/http": "1.15.0",
+    "@typespec/rest": "0.85.0"
+  },
+  "devDependencies": {
+    "@azure-tools/typespec-azure-core": "catalog:",
+    "@azure-tools/typespec-azure-rulesets": "catalog:",
+    "@azure-tools/typespec-client-generator-core": "catalog:",
+    "@typespec/compiler": "catalog:",
+    "@typespec/http": "catalog:",
+    "@typespec/rest": "catalog:",
+    "typescript": "catalog:"
+  }
+}

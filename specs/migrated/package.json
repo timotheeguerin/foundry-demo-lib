@@ -1,0 +1,23 @@
+{
+  "name": "@foundry-demo/migrated",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@timotheeguerin/foundry-core": "workspace:*",
+    "@azure-tools/openai-typespec": "catalog:",
+    "@azure-tools/typespec-azure-core": "catalog:",
+    "@azure-tools/typespec-azure-rulesets": "catalog:",
+    "@azure-tools/typespec-client-generator-core": "catalog:",
+    "@typespec/compiler": "catalog:",
+    "@typespec/events": "catalog:",
+    "@typespec/http": "catalog:",
+    "@typespec/openapi": "catalog:",
+    "@typespec/openapi3": "catalog:",
+    "@typespec/rest": "catalog:",
+    "@typespec/sse": "catalog:",
+    "@typespec/streams": "catalog:",
+    "@typespec/versioning": "catalog:",
+    "@typespec/xml": "catalog:"
+  }
+}

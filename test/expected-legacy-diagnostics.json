@@ -1,0 +1,5986 @@
+[
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Enum Member types must use snake_case",
+    "file": "src/common/service.tsp",
+    "line": 33,
+    "column": 5
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/agents/models.tsp",
+    "line": 806,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/data_generation_jobs/models.tsp",
+    "line": 215,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/evaluations/models.tsp",
+    "line": 235,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/indexes/models.tsp",
+    "line": 16,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/indexes/models.tsp",
+    "line": 34,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/indexes/models.tsp",
+    "line": 44,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 100,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 154,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 364,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 376,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 502,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 681,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 690,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/openai/responses/models.tsp",
+    "line": 368,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/red-teams/models.tsp",
+    "line": 138,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 231,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 239,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 255,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 263,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 289,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 298,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/toolboxes/models.tsp",
+    "line": 307,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 1090,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 1104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 1300,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 1318,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 244,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 262,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 289,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 791,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 818,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 831,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 848,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 864,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Model types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 897,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 327,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 327,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 337,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 337,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 346,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 346,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 358,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 358,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation Template types must use PascalCase",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 367,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Operation types must use camelCase",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 164,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations_ws/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 114,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 114,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 114,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 123,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 126,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 25,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 47,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 47,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 47,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 59,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 62,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 88,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-invocations/routes.tsp",
+    "line": 91,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 140,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 143,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 164,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 167,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 170,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 176,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 179,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 182,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 185,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 188,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 191,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 194,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 197,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 200,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 203,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 207,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 211,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 33,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 60,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 66,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 73,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/routes.tsp",
+    "line": 66,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/routes.tsp",
+    "line": 66,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-microsoft365/routes.tsp",
+    "line": 66,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-session-files/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-session-files/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents-session-files/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 149,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 149,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 149,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 152,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 152,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 152,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 375,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 375,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 375,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 408,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 408,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 408,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 411,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 411,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 411,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 82,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 82,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 82,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 85,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 85,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 85,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 90,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 90,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/agents/routes.tsp",
+    "line": 90,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/error.range.tsp",
+    "line": 10,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/error.range.tsp",
+    "line": 10,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/error.range.tsp",
+    "line": 18,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/error.range.tsp",
+    "line": 18,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 122,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 122,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 122,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 21,
+    "column": 5
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/models.tsp",
+    "line": 22,
+    "column": 5
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/common/servicepatterns.tsp",
+    "line": 186,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 165,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 52,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 33,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 37,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 37,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 37,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 37,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/connections/routes.tsp",
+    "line": 37,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 120,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 31,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 31,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 31,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 35,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 35,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 35,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 79,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 82,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 85,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 92,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 95,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/routes.tsp",
+    "line": 28,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/routes.tsp",
+    "line": 28,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/routes.tsp",
+    "line": 28,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/datasets/routes.tsp",
+    "line": 28,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/models.tsp",
+    "line": 26,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/models.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/models.tsp",
+    "line": 34,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/models.tsp",
+    "line": 46,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 22,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 26,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 26,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 26,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 26,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 26,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 30,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 30,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 30,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 30,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/deployments/routes.tsp",
+    "line": 30,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 39,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 42,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 45,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 56,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 65,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 74,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 97,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 97,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 97,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 59,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 59,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 59,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-rules/routes.tsp",
+    "line": 59,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-suites/routes.tsp",
+    "line": 46,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-suites/routes.tsp",
+    "line": 46,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-suites/routes.tsp",
+    "line": 46,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-suites/routes.tsp",
+    "line": 46,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 19,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 19,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 19,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 19,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 22,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 58,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 74,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/models.tsp",
+    "line": 77,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluation-taxonomies/routes.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 100,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 103,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 109,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 112,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 125,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 140,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 143,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 149,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 15,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 18,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 241,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 244,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 247,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 82,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 85,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 92,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 103,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 21,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 29,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 39,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 49,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 57,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 61,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 65,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 72,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 76,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 83,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 87,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 91,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 95,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 99,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 123,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 154,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 163,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 166,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 173,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 176,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 182,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 189,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 192,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 195,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 198,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 201,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 264,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 273,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 279,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 282,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 285,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 298,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 301,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 304,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 343,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 353,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 385,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 394,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 44,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 64,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 67,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 70,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 81,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 84,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 95,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 25,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 56,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 61,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 61,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 61,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 61,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/insights/routes.tsp",
+    "line": 8,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 117,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 117,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 117,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 148,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 151,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 174,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 196,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 199,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 202,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 210,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 213,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 219,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 227,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 235,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 247,
+    "column": 5
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/audio/routes.generated.tsp",
+    "line": 39,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/audio/routes.generated.tsp",
+    "line": 64,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/audio/routes.generated.tsp",
+    "line": 64,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/audio/routes.generated.tsp",
+    "line": 93,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/audio/routes.generated.tsp",
+    "line": 93,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/files/routes.generated.tsp",
+    "line": 69,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/files/routes.generated.tsp",
+    "line": 69,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/images/routes.generated.tsp",
+    "line": 100,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/images/routes.generated.tsp",
+    "line": 100,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/images/routes.generated.tsp",
+    "line": 34,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/images/routes.generated.tsp",
+    "line": 34,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/responses/routes.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/uploads/routes.generated.tsp",
+    "line": 96,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/uploads/routes.generated.tsp",
+    "line": 96,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/video/routes.generated.tsp",
+    "line": 68,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/openai/video/routes.generated.tsp",
+    "line": 68,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 143,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 165,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 165,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 165,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 168,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 168,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 168,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 171,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 171,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 171,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 174,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 174,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 174,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 177,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 177,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 177,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 180,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 180,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 180,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/routes.tsp",
+    "line": 42,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/routes.tsp",
+    "line": 42,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/red-teams/routes.tsp",
+    "line": 42,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 150,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 160,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 170,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 173,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 176,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 191,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 194,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 226,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 229,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 251,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 251,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 251,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 261,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 261,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 261,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 277,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 277,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 277,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 287,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 287,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 293,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 293,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 301,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 301,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 65,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 68,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 71,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/skills/routes.tsp",
+    "line": 105,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/skills/routes.tsp",
+    "line": 105,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/skills/routes.tsp",
+    "line": 105,
+    "column": 7
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Property types must use snake_case",
+    "file": "src/voice-agents/models.tsp",
+    "line": 372,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Scalar types must use PascalCase",
+    "file": "src/common/custom-types.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Scalar types must use PascalCase",
+    "file": "src/common/custom-types.tsp",
+    "line": 12,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Scalar types must use PascalCase",
+    "file": "src/common/custom-types.tsp",
+    "line": 6,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Scalar types must use PascalCase",
+    "file": "src/common/custom-types.tsp",
+    "line": 7,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/data_generation_jobs/models.tsp",
+    "line": 310,
+    "column": 1
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/openai/responses/models.tsp",
+    "line": 267,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 14,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 28,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 316,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 45,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union types must use PascalCase",
+    "file": "src/tools/models.tsp",
+    "line": 783,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 18,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 21,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 24,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 27,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 41,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 44,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 50,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 56,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 59,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents-containers/models.tsp",
+    "line": 62,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1005,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1008,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1011,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1014,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1017,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1020,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1023,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1026,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1036,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1147,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1155,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1158,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1161,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1169,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 1172,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 131,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 132,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 133,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 134,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 658,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 707,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 708,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 709,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 710,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agents/models.tsp",
+    "line": 881,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/agentserver-persistence/models.tsp",
+    "line": 29,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 109,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 112,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 115,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 118,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 121,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 124,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 127,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 130,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 133,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 136,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 144,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 147,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 150,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 156,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/connections/models.tsp",
+    "line": 159,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 61,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/datasets/models.tsp",
+    "line": 64,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/deployments/models.tsp",
+    "line": 72,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 24,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/evaluation-rules/models.tsp",
+    "line": 82,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/evaluations/models.tsp",
+    "line": 221,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 111,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 114,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/indexes/models.tsp",
+    "line": 117,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 113,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 208,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 211,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 214,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 217,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 220,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/insights/models.tsp",
+    "line": 324,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/memory-stores/models.tsp",
+    "line": 15,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/memory-stores/models.tsp",
+    "line": 16,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/memory-stores/models.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/memory-stores/models.tsp",
+    "line": 18,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 23,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 26,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 35,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 38,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 50,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 62,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 65,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 68,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 71,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 74,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 83,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/models/models.tsp",
+    "line": 86,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 11,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 120,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 123,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 126,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 129,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 132,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 135,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 138,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 141,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 144,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 147,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 150,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 261,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 264,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 267,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 270,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 273,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 276,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 279,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 287,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 606,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 609,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/openai/evaluations/models.tsp",
+    "line": 612,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 113,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 119,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 122,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 125,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 128,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 131,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 134,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 17,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 20,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 23,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 26,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 29,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 32,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 35,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 38,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 41,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 44,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 47,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 50,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 53,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 56,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 59,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 62,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 65,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 68,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 71,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 74,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 77,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 80,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 83,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 86,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 89,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 92,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 95,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/red-teams/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 101,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 104,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 107,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 110,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 113,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 116,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 18,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 203,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 206,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 21,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 24,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 27,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 30,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 39,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 42,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 45,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 80,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 83,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 86,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 89,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/schedules/models.tsp",
+    "line": 98,
+    "column": 3
+  },
+  {
+    "severity": "warning",
+    "code": "@azure-tools/typespec-azure-core/casing-style",
+    "message": "The names of Union Variant types must use snake_case",
+    "file": "src/tools/models.tsp",
+    "line": 522,
+    "column": 5
+  }
+]
