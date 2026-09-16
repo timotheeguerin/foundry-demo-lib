@@ -37,7 +37,7 @@ interface Jobs {
     @path("jobId") job_id: string,
   ): Job | Azure.Core.Foundations.ErrorResponse;
 
-  // @post test is Foundry.Core.StandardOperations.CancelJob<
+  // test is Foundry.Core.StandardOperations.CancelJob<
   //   Job,
   //   Azure.Core.Foundations.ErrorResponse
   // >;
