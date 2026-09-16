@@ -3,7 +3,6 @@ using TypeSpec.Http;
 namespace Foundry.Core;
 
 alias FoundryDataPlaneApiVersionParameter = {
-  #suppress "@azure-tools/typespec-azure-core/casing-style" "Azure's operation-missing-api-version rule requires the apiVersion identifier; also preserves the existing Foundry SDK parameter name."
   @doc("The API version to use for this operation.")
   @query("api-version")
   apiVersion: string;

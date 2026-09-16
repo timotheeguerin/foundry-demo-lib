@@ -115,13 +115,17 @@ union FoundryFeaturesOptInKeys {
   model_router_controls_v1_preview: "ModelRouterControls=V1Preview",
 }
 
-alias WithRequiredFoundryPreviewHeader<RequiredPreviewOptInHeader extends
-  | FoundryFeaturesOptInKeys
-  | AgentDefinitionOptInKeys> = Foundry.Core.WithRequiredFoundryPreviewHeader<RequiredPreviewOptInHeader>;
+alias WithRequiredFoundryPreviewHeader<
+  RequiredPreviewOptInHeader extends
+    | FoundryFeaturesOptInKeys
+    | AgentDefinitionOptInKeys
+> = Foundry.Core.WithRequiredFoundryPreviewHeader<RequiredPreviewOptInHeader>;
 
-alias WithConditionalFoundryPreviewHeader<OptionalPreviewOptInHeader extends
-  | FoundryFeaturesOptInKeys
-  | AgentDefinitionOptInKeys> = Foundry.Core.WithConditionalFoundryPreviewHeader<OptionalPreviewOptInHeader>;
+alias WithConditionalFoundryPreviewHeader<
+  OptionalPreviewOptInHeader extends
+    | FoundryFeaturesOptInKeys
+    | AgentDefinitionOptInKeys
+> = Foundry.Core.WithConditionalFoundryPreviewHeader<OptionalPreviewOptInHeader>;
 
 #suppress "@azure-tools/typespec-azure-core/long-running-polling-operation-required" ""
 #suppress "@azure-tools/typespec-azure-core/no-response-body" ""
@@ -364,9 +368,9 @@ op cancelJobPreview<
   AzureRangeErrorResponse<ApiErrorResponse>
 >;
 
-op deleteJobPreview<AreaPreviewLabel extends
-  | FoundryFeaturesOptInKeys
-  | AgentDefinitionOptInKeys> is Foundry.Core.StandardOperations.DeleteJobPreview<
+op deleteJobPreview<
+  AreaPreviewLabel extends FoundryFeaturesOptInKeys | AgentDefinitionOptInKeys
+> is Foundry.Core.StandardOperations.DeleteJobPreview<
   WithConditionalFoundryPreviewHeader<AreaPreviewLabel>,
   AzureRangeErrorResponse<ApiErrorResponse>
 >;

@@ -62,6 +62,22 @@ test("Foundry rejects camelCase properties using the ORIGINAL Azure diagnostic I
   );
 });
 
+test("imported library parameter names need no consumer casing suppressions", async () => {
+  const result = await compileCode(`
+    import "@timotheeguerin/foundry-core";
+    model Job { display_name: string; }
+    op cancelJob is Foundry.Core.StandardOperations.CancelJob<
+      Job,
+      Azure.Core.Foundations.ErrorResponse
+    >;
+  `, { enable: { [casingRule]: options } });
+  assertDiagnostics(result);
+  const operation = result.program.getGlobalNamespaceType().operations.get("cancelJob");
+  assert.ok(operation);
+  assert.ok(operation.parameters.properties.has("apiVersion"));
+  assert.ok(operation.parameters.properties.has("jobId"));
+});
+
 test("one compilation's casing options do not change a subsequent default compilation", async () => {
   const source = "model Job { display_name: string; }";
   assertDiagnostics(await compileCode(source, { enable: { [casingRule]: options } }));

@@ -23,7 +23,7 @@ The remaining commands provide different evidence:
 | --- | --- |
 | `pnpm provenance` | Check every baseline file against the recorded upstream hashes. |
 | `pnpm test` | Exercise rules, configuration, library consumers, and workspace invariants. |
-| `pnpm check:library` | Check library declarations as project source, without import-based diagnostic filtering. |
+| `pnpm check:library` | Check library declarations as project source, excluding the consumer casing policy. |
 | `pnpm lint` | Check that the full migrated spec has no unreviewed diagnostic changes. |
 | `pnpm compare` | Recompile both full specs and compare every versioned OpenAPI document. |
 | `pnpm check:sdk` | Check the six working SDK entrypoints and preserve the known internal-contracts failure. |
@@ -89,7 +89,7 @@ The preset extends Azure's data-plane and client-SDK policies, then configures *
 
 For example, `created_at` follows Foundry's configured policy; `createdAt` produces an **`@azure-tools/typespec-azure-core/casing-style`** diagnostic. The setting applies to TypeSpec identifiers, not explicitly encoded HTTP names or string-literal values. Correct enum-member casing does not override Azure's separate `no-enum` policy.
 
-The inherited `apiVersion` identifier is a narrow compatibility exception: Azure's API-version rule requires that exact property name. Its wire binding remains the original **`api-version` query parameter**, not a header.
+The library retains the `apiVersion` identifier because Azure's API-version rule requires that exact property name. Casing policy applies to consumer-authored declarations, not library internals, so library-owned names do not need casing suppressions. Its wire binding remains the original **`api-version` query parameter**, not a header.
 
 ### Foundry standard operations
 
@@ -130,12 +130,14 @@ Compiler 1.15 has a separate limitation reporting invalid options inside nested 
 
 - This is a representative extraction, not a redesign of Foundry or a migration of every service pattern.
 - The full copied service is not newly lint-clean. `test/expected-legacy-diagnostics.json` records **748** remaining casing warnings. `pnpm lint` detects changes to that reviewed set rather than hiding those warnings or renaming API fields.
-- Imported-library declarations can be excluded from consumer lint diagnostics. Library-source checks and concrete consumer fixtures are both necessary; fewer consumer warnings alone are not evidence of a successful extraction.
+- Imported-library declarations are excluded from consumer casing diagnostics. The library-source check likewise excludes casing while retaining the other recommended checks; concrete consumer fixtures verify that the casing policy remains enforced on service code.
 - The pinned **internal C# contracts** entrypoint already produces **4,327 compiler errors** because it mixes the base and client-emitter OpenAI model views. The source remains unchanged. `pnpm check:sdk` explicitly reports this known failure and compares its diagnostics; it does not claim that entrypoint compiles. The other six SDK entrypoints are checked normally.
 - No SDK code generation, Azure deployment, or npm publication is required.
 
 ## Source and licensing
 
 The full Foundry source, examples, configuration, and supporting documentation were copied from [Azure/azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs/tree/73972b766e47d15a5342c90913a738bb7809ccee/specification/ai-foundry/data-plane/Foundry), commit **`73972b766e47d15a5342c90913a738bb7809ccee`**. Only generated `openapi3/` output was excluded. `upstream-source.json` records all 289 retained files and their hashes.
+
+The baseline's [`src/common`](https://github.com/Azure/azure-rest-api-specs/tree/cbf8f4d42b13bd8108374e438af21224b1daaa0c/specification/ai-foundry/data-plane/Foundry/src/common) matches upstream byte-for-byte at **`cbf8f4d42b13bd8108374e438af21224b1daaa0c`**. This common-only refresh changes formatting, not definitions or API behavior; the migrated adapters mirror it, and the rest of the copied source stays at the base revision above. The separate revision is recorded under `overrides` in `upstream-source.json`.
 
 Microsoft's MIT license is preserved in [LICENSE](LICENSE). Upstream READMEs and tooling remain in the source copies for provenance; use this README's pnpm commands for the demo. This is a personal demonstration, not an official Azure package.

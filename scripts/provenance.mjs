@@ -7,6 +7,12 @@ import { isDeepStrictEqual } from "node:util";
 export const root = fileURLToPath(new URL("../", import.meta.url));
 export const sourcePath = "specification/ai-foundry/data-plane/Foundry";
 export const sourceCommit = "73972b766e47d15a5342c90913a738bb7809ccee";
+export const sourceOverrides = [
+  {
+    path: "src/common",
+    commit: "cbf8f4d42b13bd8108374e438af21224b1daaa0c",
+  },
+];
 
 export async function fileHashes(directory) {
   const entries = await readdir(directory, { recursive: true, withFileTypes: true });
@@ -44,6 +50,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
         repository: "https://github.com/Azure/azure-rest-api-specs",
         commit: sourceCommit,
         path: sourcePath,
+        overrides: sourceOverrides,
         license: "MIT; Copyright (c) 2017 Microsoft",
         excluded: [{ path: "openapi3/", reason: "Generated output; regenerated for comparison." }],
         files,

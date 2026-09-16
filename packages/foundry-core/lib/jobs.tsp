@@ -65,7 +65,6 @@ model JobLike<
 alias JobCreatedResponse<TJob extends Reflection.Model> = Response<201> &
   TJob & {
     /** URL to poll for the job status. */
-    #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry SDK header name."
     @header("Operation-Location")
     operationLocation: string;
 
@@ -77,7 +76,6 @@ alias JobCreatedResponse<TJob extends Reflection.Model> = Response<201> &
 /** Response envelope for job status polling: body + optional Retry-After header. */
 alias JobStatusResponse<TJob extends Reflection.Model> = TJob & {
   /** Recommended number of seconds to wait before polling again. */
-  #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry SDK header name."
   @header("Retry-After")
   retryAfter?: int32;
 };
@@ -85,7 +83,6 @@ alias JobStatusResponse<TJob extends Reflection.Model> = TJob & {
 /** Optional Operation-Id header for idempotent job creation retries. */
 alias WithOperationId = {
   /** Client-generated unique ID for idempotent retries. When absent, the server creates the job unconditionally. */
-  #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry SDK header name."
   @header("Operation-Id")
   operationId?: string;
 };
@@ -117,7 +114,6 @@ namespace StandardOperations {
   > is Foundations.Operation<
     {
       /** The ID of the job. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     JobStatusResponse<TJob>,
@@ -149,7 +145,6 @@ namespace StandardOperations {
   > is Foundations.Operation<
     {
       /** The ID of the job to cancel. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     OkResponse & TJob,
@@ -161,7 +156,6 @@ namespace StandardOperations {
   op DeleteJob<TErrorResponse> is Foundations.Operation<
     {
       /** The ID of the job to delete. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     NoContentResponse,
@@ -197,7 +191,6 @@ namespace StandardOperations {
     TPreviewParameters,
     {
       /** The ID of the job. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     JobStatusResponse<TJob>,
@@ -233,7 +226,6 @@ namespace StandardOperations {
     TPreviewParameters,
     {
       /** The ID of the job to cancel. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     OkResponse & TJob,
@@ -249,7 +241,6 @@ namespace StandardOperations {
     TPreviewParameters,
     {
       /** The ID of the job to delete. */
-      #suppress "@azure-tools/typespec-azure-core/casing-style" "Preserves the existing Foundry route and SDK parameter name."
       @path jobId: string;
     },
     NoContentResponse,

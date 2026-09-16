@@ -2,6 +2,12 @@
   "repository": "https://github.com/Azure/azure-rest-api-specs",
   "commit": "73972b766e47d15a5342c90913a738bb7809ccee",
   "path": "specification/ai-foundry/data-plane/Foundry",
+  "overrides": [
+    {
+      "path": "src/common",
+      "commit": "cbf8f4d42b13bd8108374e438af21224b1daaa0c"
+    }
+  ],
   "license": "MIT; Copyright (c) 2017 Microsoft",
   "excluded": [
     {
@@ -157,7 +163,7 @@
     "src/common/models.tsp": "24247d9808751700f4fe8412e32dc3903de208523c9b8d8d8a359c8a2833916d",
     "src/common/openai-templates.tsp": "a626acf73c3d1069267aac9f6fc924e0a894b22a24fb36ff9e58fcf2b9ab417c",
     "src/common/service.tsp": "ead756086ba2bed20731cf8632ad8ada6b6f9e8df93728b3aa9c80acffd7dbc6",
-    "src/common/servicepatterns.tsp": "e8636b8a4c663851fb87936222d0a675e7f7b583a23e62fc2b8d7310760bc291",
+    "src/common/servicepatterns.tsp": "c6a151bd1100859445fe70b44081821de358eaebe3a7f6ae78eb6edd5f02138a",
     "src/connections/models.tsp": "5ca12f4c649a77281ef75d612f8d9e4fb225d749f40b41ba3f0a8ef686b9e26e",
     "src/connections/routes.tsp": "514a7a74526e40cde0f2c774b8dff9027eba16d3cf2dd2edda24fe604e0f7ad0",
     "src/data_generation_jobs/models.tsp": "a2bf044cb8a33faffe5ef7b060b222fa59b1f26c0eab9d9ea96e4afea2ce518d",

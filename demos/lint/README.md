@@ -37,14 +37,13 @@ negative fixture spreads `FoundryDataPlaneApiVersionParameter` to preserve the
 API-version contract while demonstrating missing standard-operation ancestry.
 The service's separate `api-key` header is authentication, not API versioning.
 
-The inherited TypeSpec identifier `apiVersion` is a compatibility exception to
-snake_case: it preserves the existing SDK parameter name and satisfies Azure's
-`operation-missing-api-version` rule, which requires that exact identifier. The
-library's `FoundryDataPlaneApiVersionParameter` declaration has a narrowly scoped,
-documented casing suppression for this parameter only. This is not an omission
-of versioning or a reliance on linter library filtering: the demos remain
-`@versioned`, and tests verify the required query binding and absence of an
-`api-version` header.
+The inherited TypeSpec identifier `apiVersion` preserves the existing SDK
+parameter name and satisfies Azure's `operation-missing-api-version` rule, which
+requires that exact identifier. Casing policy applies to consumer-authored
+declarations, not library internals, so no casing suppression is needed on the
+library's `FoundryDataPlaneApiVersionParameter`. The demos remain `@versioned`,
+and tests verify the required query binding and absence of an `api-version`
+header.
 
 For preview operations, pass the service-owned preview parameter model first,
 for example `QueryJobStatusPreview<WithRequiredFoundryPreviewHeader<"jobs-preview">,

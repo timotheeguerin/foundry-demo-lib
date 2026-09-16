@@ -20,6 +20,9 @@ enum Versions {
 model Job {
   /** The display name of the job. */
   displayName: string;
+
+  /** doc */
+  foo_bar: string;
 }
 
 /** Job lifecycle operations. */
