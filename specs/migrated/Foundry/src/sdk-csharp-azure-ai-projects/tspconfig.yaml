@@ -43,7 +43,7 @@ imports:
   - "@azure-tools/openai-typespec/models/responses"
 linter:
   extends:
-    - "@timotheeguerin/foundry-core/data-plane"
+    - "@timotheeguerin/foundry-core/recommended"
   enable:
     "@timotheeguerin/foundry-core/use-standard-operations":
       includeInterfaces:

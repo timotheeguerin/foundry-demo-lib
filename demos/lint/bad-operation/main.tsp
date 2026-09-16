@@ -19,7 +19,7 @@ enum Versions {
 /** A submitted job. */
 model Job {
   /** The display name of the job. */
-  displayName: string;
+  display_name: string;
 
   /** Token usage */
   token_usage: int64;
@@ -32,9 +32,13 @@ interface Jobs {
   @get
   get(
     ...Foundry.Core.FoundryDataPlaneApiVersionParameter,
+
     /** The ID of the job. */
-    @path job_id: string,
+    @path("jobId") job_id: string,
   ): Job | Azure.Core.Foundations.ErrorResponse;
 
-  test is Foundry.Core.StandardOperations.CancelJob<Job, Azure.Core.Foundations.ErrorResponse>;
+  // @post test is Foundry.Core.StandardOperations.CancelJob<
+  //   Job,
+  //   Azure.Core.Foundations.ErrorResponse
+  // >;
 }

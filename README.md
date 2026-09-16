@@ -112,7 +112,7 @@ linter:
 
 This selector limits only the new Foundry operation requirement, not the remaining Azure checks. Existing service exceptions remain visible in its own configuration instead of becoming blanket exceptions in the reusable preset.
 
-SDK entrypoints use the same operation-policy substitution while retaining their existing naming exceptions. The library's `data-plane` preset supplies the same Foundry policy without adding client-SDK checks to entrypoints that did not previously enable them. Configured casing is demonstrated by the full REST entrypoint and strict standalone fixtures.
+The library provides one ruleset, `recommended`, combining Azure data-plane and client-SDK checks with Foundry policy. REST and SDK entrypoints use this same preset while retaining their service-specific exceptions. Legacy SDK views explicitly preserve existing C# model names and exclude C# URL-naming checks from the Java-only Projects view. Configured casing is demonstrated by the full REST entrypoint and strict standalone fixtures.
 
 ## Upstream casing change and temporary bridge
 

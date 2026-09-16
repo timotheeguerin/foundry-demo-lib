@@ -23,7 +23,8 @@ const options = {
   scalar: "PascalCase",
 };
 
-test("recommended extends both Azure policies and configures the original casing rule", () => {
+test("recommended is the single ruleset and composes both Azure policies", () => {
+  assert.deepEqual(Object.keys($linter.ruleSets), ["recommended"]);
   const preset = $linter.ruleSets.recommended;
   assert.deepEqual(preset.extends, [
     "@azure-tools/typespec-azure-rulesets/data-plane",
