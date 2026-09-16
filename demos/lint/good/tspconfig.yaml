@@ -1,4 +1,0 @@
-emit: []
-linter:
-  extends:
-    - "@timotheeguerin/foundry-core/recommended"
